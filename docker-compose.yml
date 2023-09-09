@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  web:
+    container_name: under-construction      
+    build: .
+    ports:
+      - "9000:80"
